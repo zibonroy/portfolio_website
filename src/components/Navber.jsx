@@ -14,8 +14,7 @@ function Navber() {
 
          <div>
             <a href="#" className='text-2xl font-medium text-white cursor-auto'>
-              Portfolio 
-              <span className='text-purple-600 font-bold'> Website</span>
+              <span className='text-yellow-500'>DE</span>V. <span className='text-yellow-500'>Z</span>IBON
             </a>
          </div>
         
