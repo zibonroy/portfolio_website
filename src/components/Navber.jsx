@@ -54,6 +54,7 @@ function Navber() {
 
         </div>
 
+
          {/* Mobile view */}
           <div className='md:hidden text-white text-2xl cursor-pointer'>
             {
