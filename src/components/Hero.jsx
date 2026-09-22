@@ -1,11 +1,7 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { useState , useEffect } from 'react'
 import { assets } from '../assets/assets' 
 import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook,FaGithub} from 'react-icons/fa';
-
-
-
 
 
 export default function Hero() {
@@ -80,13 +76,21 @@ export default function Hero() {
                 </h2>
 
                 <p className='text-gray-300 text-sm md:text-base max-w-xl mx-auto md:mx-0'>
-                  I am a passionate full stack developer with expertise in building dynamic and responsive web applications.
+                  I'm a Full-Stack Developer with experience in Laravel, building dynamic, responsive, and user-friendly web applications.
                 </p>
 
                 <div className='flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mt-6'>
 
                     <a href="#projects" className='px-6 py-3 bg-purple-600 rounded-lg font-medium transition hover:bg-purple-700 shadow-lg w-full sm:w-auto text-center'>
                         View Project
+                    </a>
+
+                    <a
+                      href={assets.cvFile}
+                      download="ZIBON_ROY_CV.pdf"
+                      className="px-6 py-3 rounded-lg font-medium border border-purple-400 text-white hover:bg-purple-600 transition-all duration-500 w-full sm:w-auto text-center"
+                      >
+                      Download CV
                     </a>
 
                     <a href="#contact" className='px-6 py-3 border border-purple-400 rounded-xl font-medium w-full sm:w-auto text-center'>
@@ -97,7 +101,7 @@ export default function Hero() {
             <div className='flex items-center justify-center md:justify-start gap-5 mt-8'>
 
               <a
-                href="https://github.com/Jibon290063"
+                href="https://github.com/zibonroy"
                 target="_blank"
                 className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-gray-700 hover:scale-110 transition duration-300"
               >
@@ -105,7 +109,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/jibon-roy-381a63316?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                href="https://www.linkedin.com/in/zibon-chandro-roy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='w-12 h-12 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-blue-400 text-xl hover:bg-blue-500 hover:text-white hover:scale-110 transition-all duration-300 shadow-lg'
@@ -132,7 +136,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://www.facebook.com/share/1BAdgas6m1/"
+                href="https://www.facebook.com/LearnCodes/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className='w-12 h-12 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-blue-500 text-xl hover:bg-blue-600 hover:text-white hover:scale-110 transition-all duration-300 shadow-lg'
@@ -170,3 +174,5 @@ export default function Hero() {
     </motion.div>
   )
 }
+
+

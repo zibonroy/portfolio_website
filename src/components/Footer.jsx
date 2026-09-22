@@ -83,7 +83,7 @@ export default function Footer() {
             <div className="flex items-center gap-4">
 
               <a
-                href="https://github.com/Jibon290063"
+                href="https://github.com/zibonroy"
                 target="_blank"
                 className="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-gray-600 hover:scale-110 transition duration-300"
               >
@@ -91,7 +91,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/jibon-roy-381a63316?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                href="https://www.linkedin.com/in/zibon-chandro-roy/"
                 target="_blank"
                 className="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-500 hover:scale-110 transition duration-300"
               >
@@ -99,7 +99,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.facebook.com/share/1BAdgas6m1/"
+                href="https://www.facebook.com/LearnCodes"
                 target="_blank"
                 className="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-600 hover:scale-110 transition duration-300"
               >

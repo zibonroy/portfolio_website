@@ -1,16 +1,82 @@
-# React + Vite
+# ZIBON ROY — Full-Stack Developer 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website showcasing my skills, projects, and journey as a Full-Stack Web Developer.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm a Full-Stack Web Developer focused on building modern, responsive, user-friendly, and efficient web applications.
 
-## React Compiler
+This portfolio presents my technical skills, featured projects, development experience, and contact information in a clean and modern interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* HTML5
+* CSS3
+* Scss
+* JavaScript
+* React.js
+* Tailwind CSS
+* PHP
+* Laravel
+* Inertia.js
+* MySQL
+* Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Modern and responsive design
+* Desktop, tablet, and mobile support
+* Hero section with developer introduction
+* About section
+* Skills and technologies
+* Featured projects
+* Developer-focused portfolio presentation
+* Contact section
+* Social media / professional profile links
+* Clean and user-friendly interface
+* Responsive navigation
+* Modern UI animations and interactions
+
+
+## Skills
+
+### Frontend
+
+* HTML
+* CSS
+* Scss
+* JavaScript
+* React.js
+* Tailwind CSS
+* Inertia.js
+
+### Backend
+
+* PHP
+* Laravel
+
+### Database
+
+* MySQL
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+
+## Portfolio Purpose
+
+This portfolio is created to showcase my development skills, projects, and continuous learning journey as I work toward becoming a professional Full-Stack Web Developer.
+
+## Contact
+
+**ZIBON ROY**
+
+Full-Stack Web Developer
+
+c
+---
+
+© 2026 ZIBON ROY. All rights reserved.

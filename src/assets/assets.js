@@ -2,6 +2,7 @@ import {
   FaReact,
   FaHtml5,
   FaCss3Alt,
+  FaLaravel,
   FaJs,
   FaPhp,
   FaGithub,
@@ -19,8 +20,9 @@ import project2Image from "../assets/project2.png";
 import project3Image from "../assets/project3.png";
 import project4Image from "../assets/project4.avif";
 import project5Image from "../assets/project5.avif";
+import cvFile from "../assets/resume.pdf";
+import weatherAppImage from "../assets/weather.png";
 
-import { desc } from "framer-motion/client";
 
 export const assets = {
   profileImage,
@@ -29,113 +31,144 @@ export const assets = {
   project3Image,
   project4Image,
   project5Image,
+  weatherAppImage,
+  cvFile,
 };
 
 
 // about data 
 
 export const aboutInfo = [
-    {
-        icon: FaLaptopCode,
-        title:"Web Development",
-        description:"Passionate about creating visually appealing and functional websites that provide great user experiences.",
-        
-        
-    },
-    {
-      icon: FaRocket,
-      title:"App Development",
-      description:"Passionate about creating visually appealing and functional websites that provide great user experiences.",
-      
-    },
-    {
-        icon: FaBriefcase,
-        title:"Freelance Projects",
-        description:"Worked on modern full stack application projects including portfolio websites, Admin dashboard, and interactive UI designs.",
-        
-    },
-    {
-        icon: FaCode,
-        title:"Problem Solving",
-        description:"Continuously learning modern web technologies, improving problem-solving skills, and building real-world projects.",
-        
-    }
-]
+  {
+    icon: FaLaptopCode,
+    title: "Web Development",
+    description:
+      "Building responsive and user-friendly web interfaces with React, JavaScript, HTML, CSS, and Tailwind CSS.",
+  },
+
+  {
+    icon: FaRocket,
+    title: "Full-Stack Development",
+    description:
+      "Developing dynamic web applications using Laravel, PHP, MySQL, React, and modern web development practices.",
+  },
+
+  {
+    icon: FaBriefcase,
+    title: "Personal Projects",
+    description:
+      "Building real-world projects such as e-commerce systems, dashboards, and interactive web applications to apply and strengthen my skills.",
+  },
+
+  {
+    icon: FaCode,
+    title: "Problem Solving",
+    description:
+      "Improving problem-solving skills through coding practice, learning data structures and algorithms, and solving programming challenges.",
+  },
+];
+
 
 //skills data
-
 export const skillsData = [
   {
     id: 1,
     name: "HTML5",
     icon: FaHtml5,
-    level: "Advanced",
-    description: "Proficient in HTML5, creating semantic and accessible web structures for modern websites.",
+    level: "Intermediate",
+    description:
+      "Building semantic, structured, and accessible web pages using modern HTML5 standards.",
   },
-
   {
     id: 2,
-    name: "Tailwind CSS",
+    name: "CSS3",
     icon: FaCss3Alt,
-    level: "Advanced",
-    description: "Skilled in CSS3, crafting responsive and visually appealing designs using Flexbox, Grid, and animations.",
+    level: "Intermediate",
+    description:
+      "Creating responsive and visually appealing interfaces using CSS3, Flexbox, Grid, and modern styling techniques.",
   },
-
   {
     id: 3,
+    name: "SCSS",
+    icon: FaCss3Alt,
+    level: "Intermediate",
+    description:
+      "Writing maintainable and organized styles using SCSS features such as variables, nesting, and reusable styles.",
+  },
+  {
+    id: 4,
+    name: "Tailwind CSS",
+    icon: FaCss3Alt,
+    level: "Intermediate",
+    description:
+      "Building responsive and modern user interfaces efficiently using Tailwind CSS utility classes.",
+  },
+  {
+    id: 5,
     name: "JavaScript",
     icon: FaJs,
     level: "Intermediate",
-    description: "Experienced in JavaScript, building dynamic and interactive web applications with modern ES6+ features.",
+    description:
+      "Developing interactive web applications using modern JavaScript, ES6+ features, DOM manipulation, and APIs.",
   },
-
-  {
-    id: 4,
-    name: "React JS",
-    icon: FaReact,
-    level: "Intermediate",
-    description: "Proficient in React JS, creating reusable components and building responsive user interfaces for web applications.",
-  },
-
-  {
-    id: 5,
-    name: "PHP",
-    icon: FaPhp,
-    level: "intermediate",
-    description: "Experienced in PHP, developing server-side applications and APIs for dynamic web projects.",
-  },
-
   {
     id: 6,
-    name: "GitHub",
-    icon: FaGithub,
+    name: "React.js",
+    icon: FaReact,
     level: "Intermediate",
-    description: "Proficient in GitHub, managing code repositories, collaborating on projects, and utilizing version control effectively.", 
+    description:
+      "Building reusable components and responsive user interfaces with React.js and modern React concepts.",
   },
-
   {
     id: 7,
+    name: "PHP",
+    icon: FaPhp,
+    level: "Intermediate",
+    description:
+      "Developing dynamic server-side web applications using PHP and working with databases.",
+  },
+  {
+    id: 8,
+    name: "Laravel",
+    icon: FaLaravel,
+    level: "Intermediate",
+    description:
+      "Building structured and dynamic web applications using Laravel, MVC architecture and database relationships.",
+  },
+  {
+    id: 9,
     name: "MySQL",
     icon: FaDatabase,
     level: "Intermediate",
-    description: "Skilled in MySQL, designing and managing databases for web applications, ensuring efficient data storage and retrieval.",
+    description:
+      "Designing and managing relational databases for web applications using MySQL.",
   },
-
   {
-    id: 8,
-    name: "Problem Solving",
-    icon: FaCode,
-    level: "Biginner",
-    description: "Continuously learning modern web technologies, improving problem-solving skills, and building real-world projects.",
+    id: 10,
+    name: "Git & GitHub",
+    icon: FaGithub,
+    level: "Intermediate",
+    description:
+      "Managing source code, tracking changes, maintaining repositories, and collaborating using Git and GitHub.",
   },
-
 ];
 
 //projects data
 
 export const projectsData = [
-  {
+    {
       id: 1,
+      title: "Digital Weather App",
+      description:
+          "A responsive weather application that allows users to search for cities and view real-time weather information with location-based weather detection.",
+      image: weatherAppImage,
+      technologies: ["React", "Tailwind CSS", "JavaScript", "Weather API"],
+      icon: [FaReact, FaCss3Alt, FaJs],
+      demo: "https://digitalweatherapp.vercel.app/",
+      code: "https://github.com/zibonroy/digital_weather_app",
+    },
+    {
+      id: 2,
       title: "E-Commerce Website",
       description: "A responsive e-commerce website built with React and styled-components, featuring product listings, shopping cart functionality, and user authentication.",
       image: project1Image,
@@ -145,7 +178,7 @@ export const projectsData = [
       code:"#projects"
   },
   {
-    id: 2,
+    id: 3,
     title:"Social Media Dashboard",
     description:"A social media dashboard built with React and Material-UI, providing insights and analytics for various social media platforms.",
     image: project2Image,
@@ -155,7 +188,7 @@ export const projectsData = [
     code:"#projects"
   },
   {
-    id: 3,
+    id: 4,
     title:"Chat Application",
     description:"A real-time chat application built with React and Socket.io, allowing users to communicate in private and group chats.",
     image: project3Image,
@@ -165,7 +198,7 @@ export const projectsData = [
     code:"#projects"
   },
   {
-    id: 4,
+    id: 5,
     title:"Construction Company Website",
     description:"A responsive website for a construction company built with React and Bootstrap, showcasing services, projects, and contact information.",
     image: project5Image,
@@ -175,7 +208,7 @@ export const projectsData = [
     code:"#projects"
   },
   {
-    id: 5,
+    id: 6,
     title:"Banking System",
     description:"A banking system built with PHP and MySQL, allowing users to manage accounts, perform transactions, and view transaction history.",
     image: project4Image,
@@ -191,53 +224,55 @@ export const projectsData = [
 export const workData = [
   {
     id: 1,
-    company: "Freelance Projects",
-    role: "Frontend Developer",
+    company: "Personal Projects",
+    role: "Full-Stack Developer",
     duration: "2025 - Present",
     description:
-      "Worked on modern frontend projects including portfolio websites, landing pages, and interactive UI designs.",
+      "Building real-world web applications using React, JavaScript, Laravel, PHP, and MySQL while applying modern development practices.",
   },
 
   {
     id: 2,
-
-    company: "Personal Learning Journey",
-    role: "Web Developer Learner",
+    company: "Frontend Development",
+    role: "Frontend Developer",
     duration: "2024 - Present",
     description:
-      "Continuously learning modern web technologies, improving problem-solving skills, and building real-world projects.",
+      "Developing responsive and user-friendly interfaces using HTML, CSS, Tailwind CSS, JavaScript, and React.js.",
   },
+
   {
     id: 3,
-    company: "Real-World Projects",
-    role: "Developer",
+    company: "Backend Development",
+    role: "Backend Developer",
     duration: "2025 - Present",
-    description:"Worked on real-world projects, applying web development skills to create functional and visually appealing websites and applications.",
+    description:
+      "Building dynamic web applications with PHP and Laravel, including authentication, database relationships, and application logic.",
   },
+
   {
     id: 4,
-    company:"Remote Internships",
-    role: "Intern",
+    company: "E-Commerce Development",
+    role: "Full-Stack Developer",
     duration: "2025 - Present",
     description:
-      "Gained practical experience through remote internships, collaborating with teams and contributing to web development projects.",
+      "Developing e-commerce applications with product management, categories, orders, customers, authentication, and admin dashboard functionality.",
   },
+
   {
     id: 5,
-    company: "Open Source Contributions",
-    role: "Contributor",
-    duration: "2024 - Present",
+    company: "API & Web Application Development",
+    role: "Web Developer",
+    duration: "2025 - Present",
     description:
-      "Contributed to open source projects on GitHub, collaborating with other developers and gaining experience in real-world software development.",
+      "Working with APIs and modern web technologies to build interactive applications such as weather applications and other data-driven projects.",
   },
+
   {
     id: 6,
-    company: "Hackathons and Coding Challenges",
-    role: "Participant",
-    duration: "2024 - 2025",
+    company: "Learning & Development",
+    role: "Web Developer",
+    duration: "2024 - Present",
     description:
-      "Participated in hackathons and coding challenges to enhance problem-solving skills and collaborate with other developers.",
-
-  }
+      "Continuously improving web development and problem-solving skills through coding practice, projects, and learning modern development technologies.",
+  },
 ];
-

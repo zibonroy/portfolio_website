@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser'
 import toast from 'react-hot-toast'
@@ -244,7 +244,7 @@ export default function Contact() {
                             </a>
 
                             <a
-                                href="https://www.linkedin.com/in/jibon-roy-381a63316?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                href="https://www.linkedin.com/in/zibon-chandro-roy/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className='w-14 h-14 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-blue-400 text-2xl hover:bg-blue-500 hover:text-white hover:scale-110 transition-all duration-300'
@@ -262,7 +262,7 @@ export default function Contact() {
                             </a>
 
                             <a
-                                href="https://www.facebook.com/share/1BAdgas6m1/"
+                                href="https://www.facebook.com/LearnCodes"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className='w-14 h-14 flex items-center justify-center rounded-xl bg-white/5 border border-white/10 text-blue-500 text-2xl hover:bg-blue-600 hover:text-white hover:scale-110 transition-all duration-300'

@@ -1,5 +1,3 @@
-import { nav } from 'framer-motion/client'
-import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { FaXmark } from 'react-icons/fa6'
 import { useState } from 'react'

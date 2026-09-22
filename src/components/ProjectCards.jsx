@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function ProjectCards({
     key,
     title,
@@ -41,7 +39,7 @@ export default function ProjectCards({
             </div>
             
         </div>
-    
+        
     </div>
   )
 }
