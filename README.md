@@ -76,7 +76,10 @@ This portfolio is created to showcase my development skills, projects, and conti
 
 Full-Stack Web Developer
 
-c
+* Portfolio: [https://zibon-dev-portfolio.vercel.app/]
+* GitHub: [https://github.com/zibonroy]
+* LinkedIn: [https://www.linkedin.com/in/zibon-chandro-roy/] 
+
 ---
 
 © 2026 ZIBON ROY. All rights reserved.
