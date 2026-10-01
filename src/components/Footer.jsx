@@ -24,8 +24,8 @@ export default function Footer() {
             </h2>
 
             <p className="text-gray-400 leading-relaxed text-sm">
-              Passionate Full Stack Developer focused on building
-              modern, responsive and user-friendly web applications
+              Full Stack Developer on building
+              modern, responsive, user-friendly and efficient web applications
               with clean UI & smooth user experience.
             </p>
           </div>

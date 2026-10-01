@@ -15,23 +15,23 @@ import { FaDatabase } from "react-icons/fa6";
 
 
 import profileImage from "../assets/profile.jpeg";
-import project1Image from "../assets/project1.png";
 import project2Image from "../assets/project2.png";
 import project3Image from "../assets/project3.png";
 import project4Image from "../assets/project4.avif";
 import project5Image from "../assets/project5.avif";
 import cvFile from "../assets/resume.pdf";
 import weatherAppImage from "../assets/weather.png";
+import movieAppImage from "../assets/movies.png";
 
 
 export const assets = {
   profileImage,
-  project1Image,
   project2Image,
   project3Image,
   project4Image,
   project5Image,
   weatherAppImage,
+  movieAppImage,
   cvFile,
 };
 
@@ -169,13 +169,13 @@ export const projectsData = [
     },
     {
       id: 2,
-      title: "E-Commerce Website",
-      description: "A responsive e-commerce website built with React and styled-components, featuring product listings, shopping cart functionality, and user authentication.",
-      image: project1Image,
-      technologies: ["React", "Styled-Components", "JavaScript"],
-      icon: [FaReact, FaJs, FaCode],
-      demo: "#projects",
-      code:"#projects"
+      title: "Movie Explorer",
+      description: "A movie exploration application that allows users to search for movies, view details, and explore popular and trending movies using the TMDB API.",
+      image: movieAppImage,
+      technologies: ["React", "JavaScript","TailwindCss", "TMDB API"],
+      icon: [FaReact, FaJs, FaCss3Alt],
+      demo: "https://movie-exploer.vercel.app/",
+      code:"https://github.com/zibonroy/Movie-exploer"
   },
   {
     id: 3,

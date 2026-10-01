@@ -19,9 +19,6 @@ export default function Projects() {
             <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16 mt-5'>Check out of my recent projects work</p>
 
             <motion.div
-                // initial={{ x: '-100vw' }}
-                // animate={{ x: 0 }}
-                // transition={{ type: 'spring', stiffness: 50 }}
                 initial={{ opacity: 0, y: 60 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}

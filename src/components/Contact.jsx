@@ -176,7 +176,7 @@ export default function Contact() {
                                     </h3>
 
                                     <p className='text-gray-400 mt-2'>
-                                       Lalmonirhat, Rangpur, Bangladesh
+                                       Rangpur, Bangladesh
                                     </p>
                                 </div>
                             </div>
@@ -222,9 +222,9 @@ export default function Contact() {
                                         Datials
                                     </h3>
                                     <p className='text-gray-500 text-sm mt-1 leading-relaxed'>
-                                        Passionate Full Stack Web Developer on building
-                                        modern, responsive, and user-friendly web experiences
-                                        using Tailwind Css, React, MySql, PHP and modern web technologies.
+                                        Full Stack Web Developer on building
+                                        modern, responsive, user-friendly and efficient web experiences
+                                        using Tailwind Css, Javascript, React, MySql, PHP, Laravel and modern web technologies.
                                     </p>
                                 </div>
                             </div>
